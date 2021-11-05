@@ -119,5 +119,6 @@ test('renders all fields text when all fields are submitted.', async () => {
       expect(lastDisplay).toBeInTheDocument();
       expect(emailDisplay).toBeInTheDocument();
       expect(messageDisplay[1]).toBeInTheDocument();
-  })   
+  })
+  
 });
